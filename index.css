@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+/*Fontları html yerine css'e ekledim. Bu şekilde daha temiz bir kullanım oluyor.*/
+/*Ekran arka planını siyah istiyorum*/
+body {
+    background-color: black;
+}
+
+/*Yazılar*/
+p {
+    color:white;
+    text-align:center;
+    margin-bottom:0px;
+}
+
+h1, h2{
+    color:white;
+    text-align: center;
+}
+
+/* Navigasyon kısmı. Mobilde daha hoş gözüktüğü için linkleri alt alta gelecek şekilde bıraktım*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: center;
+}
+
+/*Normal list itemleri için ayarlama*/
+.listp2 {
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "pirata one";
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+a:link{
+    text-decoration: none;
+    background-color: rgb(97, 45, 10);
+}
+.active {
+  background-color: #30a5d3;
+}
+ 
+/*Başlık için ayrı bir stil yaptım ama gerek olmazsa sileceğim*/
+.baslikstil{
+    font-family: Pirata One;
+}
+
+
+/*Logo için minik ayarlamalar - Minor adjustments to the logo*/
+.logo{
+    float: left;
+    width:270px;
+    height:150px;
+    margin-left: 0%;
+}
+
+
+
+/*nav dışındaki linkler için - for links other than nav*/
+.link{
+    background-color: forestgreen;
+}
+
+/*resim ayarlamaları - picture adjustments*/
+.image2{
+    width: 50%;
+    margin: 0px;
+    margin-left: 25%;
+    margin-right: 20%;
+    float: center;
+} 
+
+.image3{
+    margin-top:0;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+.img3{
+    width:50%;
+    height: 300px;
+    margin-left: 25%;
+    margin:0px;
+
+}
+
+.gif {
+    width: 50%;
+    margin: 0px;
+    margin-left: 25%;
+    margin-right: 20%;
+    float: center;
+}
+
+footer{
+    background-color: rgb(35, 4, 92);
+}
+
+/*Böcek ve örümcek korkusu olanlar için uyarı - Warning for those who are afraid of insects and spiders*/
+.warning{
+    color:red;
+    font-weight: bolder;
+    font-size: 20px;
+}
